@@ -10,14 +10,14 @@
  */
 function generateIntegersArray(firstNumber, lastNumber) {
   const integersArray = [];
-  whille (firstNumber < lastNumber)
+  while (firstNumber < lastNumber){
     integersArray.push(firstNumber);
-    lastNumber++;
-
+    firstNumber++;
+  }
   return IntegersArray;
 }
 
-// console.log(generateIntegersArray(3, 7));
+ console.log(generateIntegersArray(3, 7));
 
 /**
  * noZeroes(numberString):
@@ -30,16 +30,16 @@ function generateIntegersArray(firstNumber, lastNumber) {
  * noZeroes("0130401431400") -> "1304014314"
  *
  */
-function noZeroes(numberString) {
-  while (numberString.startsWith("0")) {
-    numberString.slice(0, -1);
-  }
+// function noZeroes(numberString) {
+//   while (numberString.startsWith("0")) {
+//     numberString.slice(0, -1);
+//   }
 
-  while (numberString.endswith("0") {
-    numberString.slice[1];
-  }
-  numberString;
-}
+//   while (numberString.endswith("0") {
+//     numberString.slice[1];
+//   }
+//   numberString;
+// }
 
 // console.log(noZeroes("001100"));
 
